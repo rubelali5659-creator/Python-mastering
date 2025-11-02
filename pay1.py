@@ -7,9 +7,9 @@ if xh>40:
     print("Overtime")
     reg = 40*xr
     otp = (xh-40)*(xr*1.5)
-    print(reg,otp)
+    # print(reg,otp)
     xp = reg+otp
 else:
     print("Regular")
     xp = xh*xr
-print("Pay:",xp)
+print(f"Pay:{xp:.2f}")
