@@ -24,5 +24,3 @@ elif zp>xp and zp>yp:
     print("Rasel earns more")
 else:
     print("Everyone's earning is same")
-print('The End')
-
