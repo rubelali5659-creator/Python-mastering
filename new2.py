@@ -5,7 +5,7 @@ xr = float(sr)
 if xh>40:
     # print("Overtime")
     reg = xr*40
-    otp = (xh-40)*(xr*10.5)
+    otp = (xh-40)*(xr*1.5)
     # print(reg,otp)
     xp = reg+otp
     print(f"Pay:{xp:.2f}")
