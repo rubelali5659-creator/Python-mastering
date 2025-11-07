@@ -1,4 +1,4 @@
-score_input =input("Enter a score between 0.0 and 1.0: ")
+score_input = input("Enter a score between 0.0 & 1.0: ")
 try:
     score = float(score_input)
     if score < 0.0 or score > 1.0:
@@ -16,5 +16,4 @@ try:
             Grade = "F"
     print(Grade)
 except ValueError:
-    print("Error!")
-
+    print("Error")
