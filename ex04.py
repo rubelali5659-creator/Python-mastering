@@ -1,5 +1,5 @@
 def computepay(hours, rate):
-    print("In computepay", hours, rate)
+   # print("In computepay", hours, rate)
     if hours>40:
         reg = 40*rate
         otp = (hours-40)*(rate*1.5)
